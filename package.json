@@ -1,0 +1,33 @@
+{
+  "name": "glasss-cli",
+  "version": "0.0.1",
+  "main": "cli.js",
+  "bin": {
+    "glasss": "cli.js"
+  },
+  "keywords": [
+    "cli",
+    "css",
+    "glasss",
+    "front-end",
+    "glasss-cli"
+  ],
+  "scripts": {
+    "start": "node cli.js",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "author": "Akhil Raj",
+  "license": "MIT",
+  "description": "A CLI tool for the glasss Library.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lf32/glasss-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lf32/glasss-cli/issues"
+  },
+  "homepage": "https://github.com/lf32/glasss-cli#readme"
+}
